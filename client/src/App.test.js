@@ -13,12 +13,12 @@ test('renders without crashing', () => {
 
 test("Women's World Cup header is found", () => {
   const {getByText} = render(<Navbar />);
-  getByText("Women's World Cup");
+getByText("Women's World Cup Players");
 });
 
 test("Top 100 Players header is found", () => {
   const {getByText} = render(<App />);
-  getByText("Top 100 Players");
+getByText("Top 100 Players:");
 });
 
 
